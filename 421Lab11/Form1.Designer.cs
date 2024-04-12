@@ -62,7 +62,7 @@
             back.TabIndex = 0;
             back.Text = "<-";
             back.UseVisualStyleBackColor = false;
-            back.Click += button1_Click;
+            back.Click += back_Click;
             // 
             // clearEntry
             // 
@@ -73,7 +73,7 @@
             clearEntry.TabIndex = 1;
             clearEntry.Text = "CE";
             clearEntry.UseVisualStyleBackColor = false;
-            clearEntry.Click += button1_Click_1;
+            clearEntry.Click += clearEntry_Click;
             // 
             // clear
             // 
@@ -106,7 +106,7 @@
             squareRoot.TabIndex = 4;
             squareRoot.Text = "^(1/2)";
             squareRoot.UseVisualStyleBackColor = false;
-            squareRoot.Click += button1_Click_2;
+            squareRoot.Click += squareRoot_Click;
             // 
             // seven
             // 
